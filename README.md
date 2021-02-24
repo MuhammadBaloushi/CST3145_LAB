@@ -2,8 +2,8 @@
 MDX University LAB 
 
 GROUP Students:
-Uzair Muhammad
-Neha Nadeem
-Usman Ahsan 
-Muhammad Baloushi
+Uzair Muhammad,
+Neha Nadeem,
+Usman Ahsan,
+Muhammad Baloushi,
 Mohammad Hasnain Zafar
