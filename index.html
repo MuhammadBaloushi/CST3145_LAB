@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Lab Task</title>
-    <!-- Adding VueJs library  -->
     <script src="https://unpkg.com/vue"> </script>
-
-        <!-- Adding Font Awesome library  -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
-
 <body>
     <div id="app">
         <header>
@@ -20,7 +15,7 @@
             <figure>
                 <img v-bind:src="product.image" width="200" height="200">
             </figure>
-            <h2 v-html="<product.title>"></h2>
+            <h2 v-html="product.title"></h2>
             <P>Location: {{product.location}}</P>
             <p>Price: {{product.price}}</p>
             <P>Product I.d: {{product.id}}</P>
@@ -30,7 +25,9 @@
     </div>
 
 
-    
+
+
+
     <script type="text/javascript">
     var webstore = new Vue({
         el:"#app",
